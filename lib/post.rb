@@ -5,7 +5,7 @@
 
   def initialize(title)
     @title = title
-    @@all << self
+    @@all.push(self)
   end
 
   def self.all
