@@ -13,6 +13,7 @@
   end
 
   def author_name
-    author.name if author
+    if author
+      return author.name 
   end
 end
